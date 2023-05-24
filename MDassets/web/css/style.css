@@ -1,0 +1,30 @@
+
+div.video-item-img {
+    position: relative;
+}
+
+span.video-item-tag {
+    border-radius: 5px;
+    color: white;
+    padding-left: 12px;
+    padding-right: 5px;
+    margin-bottom: 16px;
+    position: absolute;
+    font-size: 10px;
+}
+
+span.video-item-tag-is-vip {
+    right: 0;
+    top: 0;
+    padding-right: 0 ;
+}
+
+span.video-item-tag-hits {
+    left: 0;
+    bottom: 0;
+}
+
+span.video-item-tag-duration {
+    right: 5px;
+    bottom: 0;
+}
