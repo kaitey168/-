@@ -1,0 +1,144 @@
+.yt-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%
+}
+
+.yt-dialog {
+	z-index: 1000;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 8.88rem;
+	background: #fff;
+	border-radius: .26667rem
+}
+
+.yt-dialog .dialog-header {
+	border-radius: .26667rem;
+	position: relative;
+	padding-top: 2.26667rem
+}
+
+.yt-dialog .dialog-header .notice-img {
+	width: 2.61333rem;
+	height: 2.61333rem;
+	position: absolute;
+	top: -.66667rem;
+	left: 3.14667rem
+}
+
+.yt-dialog .dialog-header .dialog-title-wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.yt-dialog .dialog-header .dialog-title-wrap span {
+	width: .82667rem;
+	height: .02667rem;
+	background: #fff6e0
+}
+
+.yt-dialog .dialog-header .dialog-title-wrap .dialog-title {
+	margin: 0 .32rem;
+	font-size: .58667rem;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: #f9ac04
+}
+
+.yt-dialog .dialog-container {
+	padding: .45333rem .61333rem .58667rem;
+	border-bottom-right-radius: .26667rem;
+	border-bottom-left-radius: .26667rem;
+	background: #fff
+}
+
+.yt-dialog .dialog-container .message {
+	text-align: center;
+	margin-bottom: .64rem;
+	font-size: .4rem;
+	font-weight: 400;
+	color: #333;
+	line-height: .64rem
+}
+
+.yt-dialog .dialog-container .dialog-btns {
+	margin-top: .34667rem
+}
+
+.yt-dialog .dialog-container .dialog-btns .dialog-btn {
+	width: 3.68rem;
+	height: 1.25333rem;
+	font-size: .48rem;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 500;
+	color: #62372f;
+	background: linear-gradient(305deg, #ffc055, #ffedc4)
+}
+
+.yt-dialog .dialog-container .dialog-btns .sure {
+	margin-left: .26667rem
+}
+
+.yt-dialog .dialog-container .dialog-btns .cancel {
+	-webkit-box-shadow: 0 .02667rem .18667rem 0 hsla(0, 0%, 59.6%, .39);
+	box-shadow: 0 .02667rem .18667rem 0 hsla(0, 0%, 59.6%, .39);
+	border: 0 solid #979797;
+	background-color: transparent;
+	background-image: none;
+	color: #333
+}
+
+.yt-dialog .dialog-container .dialog-btns .large {
+	width: 6.66667rem
+}
+
+.home {
+	position: relative
+}
+
+.home.icon {
+	width: .32rem;
+	height: .37333rem
+}
+
+.home .tab-active-icon {
+	width: .48rem;
+	height: .13333rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-left: .24rem
+}
+
+.home .tab-title {
+	text-align: left
+}
+
+.home .van-tab {
+	font-size: .37333rem;
+	font-weight: 700;
+	color: #333;
+	min-width: unset
+}
+
+.home .van-tab--active {
+	font-size: .48rem
+}

@@ -1,0 +1,218 @@
+.containers {
+	width: 100%;
+	background: #fff;
+	padding-bottom: .4rem
+}
+
+.containers .van-pull-refresh {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1
+}
+
+.heads {
+	padding: 0 .37333rem;
+	width: 10rem;
+	height: 1.2rem;
+	background: #fff;
+	-webkit-box-shadow: 0 0 .16rem 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 0 .16rem 0 rgba(0, 0, 0, .1);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.heads img {
+	width: .53333rem;
+	height: .53333rem
+}
+
+.titleText {
+	font-size: .45333rem;
+	font-family: PingFangSC;
+	font-weight: 600;
+	color: #333
+}
+
+.list {
+	width: 100%;
+	height: 2.13333rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	text-align: left
+}
+
+.list>.img {
+	width: 3.52rem;
+	height: 2.16rem;
+	border-radius: .24rem;
+	overflow: hidden;
+	background-size: cover
+}
+
+.list>.img .duration {
+	width: 100%;
+	height: 100%;
+	background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, .6)));
+	background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .6));
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	padding: .18667rem;
+	font-size: .26667rem;
+	font-weight: 600;
+	color: #fff
+}
+
+.list h1 {
+	width: 5.33333rem;
+	font-size: .37333rem;
+	font-family: PingFangSC;
+	font-weight: 600;
+	color: #000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.list p {
+	font-size: .29333rem;
+	font-family: PingFangSC;
+	font-weight: 400;
+	color: #999
+}
+
+.content {
+	margin-left: .26667rem;
+	padding: .13333rem 0 .10667rem;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.content .div {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.list span {
+	margin-left: .16rem;
+	font-size: .37333rem;
+	font-family: PingFangSC;
+	font-weight: 600;
+	color: #ffcb65
+}
+
+.noData {
+	margin-top: 5.33333rem
+}
+
+.empty {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: .37333rem;
+	color: #666
+}
+
+.empty img {
+	display: inline-block;
+	width: 2.66667rem
+}
+
+.lists .date-list .date {
+	text-align: left;
+	font-size: .42667rem;
+	font-weight: 600;
+	color: #333;
+	line-height: .58667rem;
+	margin-top: .56rem;
+	padding-left: .37333rem
+}
+
+.lists .van-swipe-cell {
+	margin-top: .37333rem
+}
+
+.lists .van-swipe-cell .van-cell {
+	background: transparent;
+	padding: 0 .29333rem
+}
+
+.lists .van-swipe-cell .van-swipe-cell__right .van-button {
+	width: 1.86667rem;
+	height: 2.18667rem;
+	background-image: -webkit-gradient(linear, left top, right top, from(#ffe549), to(#ffb41e));
+	background-image: linear-gradient(90deg, #ffe549 0, #ffb41e)
+}
+.video-surface{
+	width: auto;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+.bottomFixedBar {
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 1px solid #f3f3f3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.bottomFixedBar>p {
+    height: 100%;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0 10px;
+    color: #646464;
+}
+.bottomFixedBar>p.del {
+    color: #cb266d;
+}

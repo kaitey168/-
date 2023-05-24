@@ -1,0 +1,205 @@
+h1,
+p {
+	margin: 0;
+	padding: 0
+}
+
+.list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 -.05333rem
+}
+
+.list .video-surface {
+	margin-top: 0;
+	margin-bottom: .37333rem
+}
+
+.cantanner{
+	padding: .37333rem .37333rem 0
+}
+
+.cantanner .gujia {
+	width: 100%
+}
+
+.cantanner .ads {
+	margin: .53333rem 0;
+	width: 100%;
+	height: 2.77333rem
+}
+
+.cantanner .ads img {
+	width: 100%;
+	height: 100%;
+	border-radius: .18667rem
+}
+
+.cantanner .bannerVdeo {
+	margin-bottom: .26667rem
+}
+
+.cantanner .bannerVdeo .img_div {
+	position: relative
+}
+
+.cantanner .bannerVdeo .img_div .van-image {
+	width: 100%;
+	height: 4.24rem
+}
+
+.cantanner .bannerVdeo .img_div .vipImg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: .88rem;
+	height: .42667rem;
+	z-index: 2
+}
+
+.cantanner .bannerVdeo .img_div span {
+	position: absolute;
+	bottom: .21333rem;
+	left: .21333rem;
+	font-size: .26667rem;
+	font-weight: 600;
+	color: #fff
+}
+
+.cantanner .bannerVdeo .item_name p {
+	font-size: .37333rem;
+	font-weight: 600;
+	color: #333;
+	line-height: .50667rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: .13333rem;
+	text-align: left;
+	margin: 0
+}
+
+.cantanner .tabs {
+	width: 100%;
+	margin-top: .26667rem;
+	margin-bottom: .53333rem
+}
+
+.cantanner .tabs ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+	border-radius: .48rem
+}
+
+.cantanner .tabs ul li {
+	width: 25%;
+	float: left;
+	font-size: .32rem;
+	color: #333;
+	padding: 0 .4rem;
+	line-height: .8rem;
+	border-radius: .4rem;
+	background-color: transparent;
+	-webkit-transition: all .45s ease-out;
+	transition: all .45s ease-out;
+	cursor: pointer
+}
+
+.cantanner .tabs ul li.active {
+	font-weight: 500;
+	background-image: -webkit-gradient(linear, left top, right top, from(#ffad4e), to(#ffc637));
+	background-image: linear-gradient(90deg, #ffad4e 0, #ffc637)
+}
+
+.cantanner .levelList .listTitle {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.cantanner .levelList .listTitle h1 {
+	font-size: .42667rem;
+	font-weight: 600;
+	color: #000;
+	line-height: .58667rem
+}
+
+.cantanner .levelList .listTitle a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	font-size: .37333rem;
+	font-weight: 400;
+	color: #000;
+	line-height: .50667rem
+}
+
+.cantanner .levelList .listTitle a span {
+	font-size: .48rem;
+	margin-left: .05333rem
+}
+
+.empty {
+	padding: 2.66667rem 0;
+	text-align: center;
+	font-size: .37333rem;
+	color: #666
+}
+
+.empty img {
+	display: inline-block;
+	width: 2.66667rem
+}
+
+.btns {
+	width: 100%;
+	bottom: 0;
+	left: 0
+}
+
+.btns .van-pagination {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-bottom: .8rem
+}
+
+.btns .van-pagination .van-pagination__item {
+	-webkit-box-flex: 0;
+	-ms-flex: none;
+	flex: none;
+	margin: 0 .12rem;
+	width: .93333rem;
+	height: .93333rem;
+	border-radius: 50%;
+	background-color: #fff
+}
+
+.btns .van-pagination .van-pagination__item--active {
+	color: #cfa56a;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ffe549), to(#ffb41e));
+	background-image: linear-gradient(90deg, #444e69, #0b0d13);
+}

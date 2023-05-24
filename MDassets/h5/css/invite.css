@@ -1,0 +1,148 @@
+.containers {
+	width: 100%;
+	background-color: #f4f4f4
+}
+
+.content {
+	height: 14.08rem;
+	background: url(../img/share-bg2.png) 50%/100% 100% no-repeat;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.content .logo-youtiao {
+	width: 1.2rem;
+	margin-top: .88rem
+}
+
+.footerText {
+	margin: auto;
+	text-align: center;
+	font-size: .34667rem;
+	font-family: PingFangSC;
+	font-weight: 400;
+	color: #333;
+	line-height: .61333rem
+}
+
+.titles {
+	margin: .61333rem 0 1.30667rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.titles img {
+	width: .34667rem;
+	height: .37333rem
+}
+
+.titles p {
+	padding: 0 .21333rem;
+	font-size: .42667rem;
+	font-family: PingFangSC;
+	font-weight: 500;
+	color: #fff;
+	line-height: .58667rem
+}
+
+.titles span {
+	color: #ffc844;
+	margin: 0 5px;
+}
+
+.codeBox {
+	width: 3.73333rem;
+	height: 3.70667rem;
+	background: url(../img/icon9.be04024e.png) 50%/100% 100% no-repeat
+}
+
+.codeBox img {
+	margin-top: .26667rem;
+	
+	width: 3.2rem;
+	height: 3.2rem
+}
+
+.content h3 {
+	margin: .96rem 0 .18667rem;
+	font-size: .64rem;
+	font-family: PingFangSC;
+	font-weight: 600;
+	color: #fff;
+	line-height: .61333rem
+}
+
+.content>p {
+	font-size: .37333rem;
+	font-family: PingFangSC;
+	font-weight: 400;
+	color: #fff;
+	line-height: .61333rem
+}
+
+.copyBtn {
+	margin: .45333rem 0 .26667rem;
+	background: #14120d;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-size: .4rem;
+	font-family: PingFangSC;
+	font-weight: 600;
+	color: #ffcd6b
+}
+
+.copyBtn,
+.saveBtn {
+	width: 4.85333rem;
+	height: 1.04rem;
+	border-radius: .53333rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.saveBtn {
+	padding: 0 .85333rem 0 .8rem;
+	background: #f1f0ef;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-size: .34667rem;
+	font-weight: 400;
+	color: #333;
+	line-height: .26667rem
+}
+
+.saveBtn span {
+	font-size: .34667rem;
+	font-family: PingFangSC;
+	font-weight: 600;
+	color: #ffcd6a
+}
+
+.save-tips {
+	color: #f1f0ef
+}
+
+.save-tips span {
+	color: #ffcd6a
+}

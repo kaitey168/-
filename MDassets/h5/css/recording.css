@@ -1,0 +1,94 @@
+
+
+.containers {
+	width: 100%;
+	background: #f4f4f4;
+	padding-bottom: .4rem;
+	position: relative
+}
+
+.heads {
+	padding: 0 .37333rem;
+	width: 10rem;
+	height: 1.2rem;
+	background: #fff;
+	-webkit-box-shadow: 0 0 .16rem 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 0 .16rem 0 rgba(0, 0, 0, .1);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.heads img {
+	width: .53333rem;
+	height: .53333rem
+}
+
+.titleText {
+	font-size: .45333rem;
+	font-family: PingFangSC;
+	font-weight: 600;
+	color: #333
+}
+
+.list {
+	margin: .37333rem .37333rem 0 .37333rem;
+	width: 9.25333rem;
+	height: 3.62667rem;
+	background: #fff;
+	border-radius: .18667rem
+}
+
+.listHead {
+	padding: 0 .37333rem;
+	width: 9.25333rem;
+	height: 1.2rem;
+	background: rgba(255, 198, 54, .7);
+	border-radius: .18667rem .18667rem 0 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.listHead p {
+	font-size: .37333rem;
+	font-family: PingFangSC;
+	font-weight: 600;
+	color: #333
+}
+
+.content {
+	padding: 0 .37333rem;
+	width: 100%;
+	height: 2.42667rem;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.content p {
+	text-align: left;
+	font-size: .37333rem;
+	font-family: PingFangSC;
+	font-weight: 400;
+	color: #333
+}

@@ -1,0 +1,142 @@
+.topic-item {
+	width: 100%;
+	height: 2.10667rem;
+	-webkit-box-orient: horizontal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	border-radius: .08rem;
+	background-color: #f1f1f1;
+	background-repeat: no-repeat
+}
+
+.topic-item .con-wrap,
+.topic-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-direction: normal;
+	background-size: 100% 100%
+}
+
+.topic-item .con-wrap {
+	width: 3.70667rem;
+	border-top-left-radius: .08rem;
+	border-bottom-left-radius: .08rem;
+	-webkit-box-orient: vertical;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 0 .37333rem
+}
+
+.topic-item .con-wrap h3 {
+	font-size: .4rem;
+	font-weight: 700;
+	color: #fff;
+	text-align: left
+}
+
+.topic-item .con-wrap p {
+	font-size: .26667rem;
+	margin-top: .05333rem;
+	text-align: left;
+	color: #fff;
+	font-weight: 400;
+	line-height: .34667rem
+}
+
+.topic-item .img-wrap {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1
+}
+
+.topic-item .img-wrap .img {
+	width: 100%;
+	height: 100%;
+	border-top-right-radius: .08rem;
+	border-bottom-right-radius: .08rem
+}
+
+.channel {
+	padding: .53333rem .37333rem
+}
+
+.channel .nvyou {
+	width: 100%;
+	height: 3.73333rem;
+	border-radius: .08rem;
+	position: relative;
+	background-image: url(../img/nvyou.png);
+	background-color: #f1f1f1;
+	background-size: 100% 100%;
+	margin-bottom: .26667rem
+}
+
+.channel .nvyou .con-wrap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0 .37333rem;
+	height: 1.33333rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.channel .nvyou .con-wrap .left h4 {
+	font-size: .42667rem;
+	font-family: SourceHanSansCN, SourceHanSansCN-Bold;
+	font-weight: 700;
+	text-align: left;
+	color: #fff;
+	line-height: .56rem
+}
+
+.channel .nvyou .con-wrap .left p {
+	font-size: .26667rem;
+	font-family: SourceHanSansCN, SourceHanSansCN-Regular;
+	font-weight: 400;
+	text-align: left;
+	color: #fff;
+	line-height: .29333rem
+}
+
+.channel .nvyou .con-wrap .right {
+	width: 1.6rem;
+	height: .53333rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	opacity: 1;
+	background: linear-gradient(136deg, #ffe549, #ffb41e);
+	border-radius: .26667rem;
+	font-size: .26667rem;
+	font-family: SourceHanSansCN, SourceHanSansCN-Regular;
+	font-weight: 600;
+	color: #333
+}
+
+.channel .list-item {
+	margin-bottom: .26667rem;
+	height: 2.10667rem
+}
+
+.gujia {
+	width: 100%
+}

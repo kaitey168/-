@@ -1,0 +1,124 @@
+.containers {
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	position: relative
+}
+
+.containers .page-body {
+	padding: 0 .37333rem
+}
+
+.title {
+	padding: .93333rem 0;
+	font-size: .4rem;
+	font-weight: 400;
+	color: #000;
+	line-height: .64rem
+}
+
+.flex-row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.flex-row .capachaText {
+	height: 1.12rem;
+	line-height: 1.12rem;
+	padding: 0 .50667rem;
+	margin-left: .18667rem;
+	border: none;
+	border-radius: .56rem;
+	margin-top: .37333rem;
+	background-color: F9F9F9
+}
+
+.content {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-top: .37333rem;
+	padding: 0 .45333rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	height: 1.12rem;
+	background-color: #f9f9f9;
+	border-radius: .56rem;
+	position: relative
+}
+
+.content img {
+	width: .34667rem;
+	margin-right: .08rem
+}
+
+.content .down {
+	width: .16rem;
+	margin: 0 .08rem
+}
+
+input {
+	overflow: hidden;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-size: .34667rem;
+	font-weight: 400;
+	color: #333
+}
+
+input::-webkit-input-placeholder {
+	color: #999
+}
+
+input::-moz-placeholder {
+	color: #999
+}
+
+input:-ms-input-placeholder {
+	color: #999
+}
+
+input::-ms-input-placeholder {
+	color: #999
+}
+
+input::placeholder {
+	color: #999
+}
+
+.button {
+	margin-top: .53333rem;
+	width: 9.25333rem;
+	height: 1.12rem;
+	border-radius: .56rem;
+	border: none;
+	outline: none;
+	font-size: .37333rem;
+	font-weight: 600;
+	color: #000;
+	background: linear-gradient(152deg, #ffe549, #ffb41e)
+}
+.tishi {
+    font-size: .34667rem;
+    font-weight: 400;
+    color: #999;
+	margin-top: .26667rem;
+}

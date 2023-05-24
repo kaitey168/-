@@ -1,0 +1,128 @@
+.containers {
+	width: 100%;
+	height: 100vh;
+	background: #f4f4f4;
+	position: relative;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.containers,
+.content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal
+}
+
+.content {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	overflow: auto;
+	padding: 0 .37333rem;
+	background: url(../img/banner3.jpg) 50%/100% 100% no-repeat;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background-size: cover
+}
+
+.content>p {
+	margin-bottom: .53333rem;
+	padding: 0 .53333rem;
+	font-size: .34667rem;
+	font-weight: 400;
+	color: #fff;
+	line-height: .56rem;
+	width: 100%
+}
+
+.lists {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1
+}
+
+.lists .head {
+	margin: .85333rem auto 1.44rem;
+	height: 2.50667rem
+}
+
+.list {
+	padding: .37333rem 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-bottom: .02667rem solid hsla(0, 0%, 95.7%, .1);
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.list img {
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-right: .26667rem
+}
+
+.list>div {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.list>div div {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start
+}
+
+.list p {
+	font-size: .37333rem;
+	font-family: PingFangSC;
+	font-weight: 600;
+	color: #fff
+}
+
+.list span {
+	font-size: .29333rem;
+	font-family: PingFangSC;
+	font-weight: 400;
+	color: #fff
+}
+
+.button2 {
+	background: hsla(0, 0%, 100%, .3);
+	color: #fff
+}
+
+.button1,
+.button2 {
+	width: 2.21333rem;
+	height: .74667rem;
+	border-radius: .37333rem;
+	border: none;
+	outline: none;
+	font-size: .34667rem;
+	font-family: PingFangSC;
+	font-weight: 400
+}
+
+.button1 {
+	background: #ffc839;
+	color: #333
+}
