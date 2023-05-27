@@ -258,7 +258,7 @@ img[lazy=loading] {
 	border-radius: 10px !important;
 	cursor: pointer;
 	display: block;
-	background-image: url(../img/loading.png);
+	background-image: url(https://cdn.jsdelivr.net/gh/kaitey168/-@main/MDassets/web/img/loading.gif);
 	overflow: hidden
 }
 
