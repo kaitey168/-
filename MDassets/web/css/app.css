@@ -19905,7 +19905,7 @@ img[lazy=loading] {
 	width: 100%;
 	text-align: center;
 	position: absolute;
-	background: no-repeat 50% url(https://fimg.yuyanshihu.com/web/img/loading2web.4ab53389.gif);
+	background: no-repeat 50% url(https://cdn.jsdelivr.net/gh/kaitey168/-@main/MDassets/web/img/loading.gif);
 	background-size: contain
 }
 
